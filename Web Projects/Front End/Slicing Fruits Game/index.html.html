@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+        <title>Fruits Game</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel = "stylesheet" href = "jquery-ui.css">
+        <link href = "jquery-ui.min.css" rel = "stylesheet"></link>
+    </head>
+    <body>
+        <div id="container">
+            <div id ="header">
+                <div id = "scoreBox">
+                    Score : <span id="score">0</span> 
+                </div>
+                <div id="correct">
+                    Correct
+                </div>
+                <div id="wrong">
+                    Wrong!!!
+                </div>
+                <div id="lives">
+                </div>
+                <div class="clear">
+
+                </div>
+            </div>
+            <div id="fruitsBox">
+                <img class = "fruit" id = "fruit">
+            </div>
+            <div id="description">
+                 Catch Fruits
+            </div>
+            <div id="startResetBox">
+                Start Game
+            </div>
+            <div id="gameOver">
+                <p>Game Over</p>
+                <p>Your score is <span id="finalScore">0</span>.</p>
+            </div>
+            </div>
+        </div>
+        <audio id = "sound">
+            <source src = "audio/slicefruit.mp3"></source>
+            <source src = "audio/slicefruit.ogg"></source> 
+        </audio>
+        <script src = "jquery-3.5.1.js" ></script>
+        <script src = "jquery-ui.min.js"></script>
+        <script src="jquery.js"></script>
+    </body>
+</html>

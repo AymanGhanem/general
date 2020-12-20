@@ -1,0 +1,160 @@
+.jumbotron
+{
+    background : url("images/dark\ theater.jpg") center center ;
+    height: 440px ;
+    background-size: cover ;
+}
+
+#logo
+{
+    height : 80px ;
+    width : 80px ;
+}
+
+.featuredSection
+{
+    color : white ;
+}
+
+.featuredSection h1
+{
+    padding-top : 10px ;
+    font-size : 44px ;
+}
+
+.featuredSection a
+{
+    width : 280px ;
+    color : white ;
+    background-color: rgba(139, 4, 4, 0.699);
+    margin-right : 10px ;
+    margin-top : 20px ;
+}
+
+.featuredSection a:hover
+{
+    width : 280px ;
+    color : white ;
+    background-color: rgba(207, 0, 0, 0.952);
+}
+
+.bottomSection img
+{
+    width : 230px ;
+    height : 60px ;
+    margin : 20px ;
+}
+
+.bottomSection .stores
+{
+    text-align : center ;
+    margin-top : 0px ;
+    padding-top : 0px ;
+}
+
+.footer
+{
+    background-color: rgb(230, 230, 230) ;
+}
+
+.footer p 
+{
+    padding-top : 5px ;
+}
+
+
+@media (min-width : 480px) and (max-width : 768px)
+{
+    .jumbotron
+    {
+        height : 400px ;
+    }
+
+    .bottomSection img
+    {
+        width : 180px ;
+        height : 80px ;
+        margin : 21px ;
+    }
+
+    #logo
+    {
+        height : 50px ;
+        width : 50px ;
+    }
+
+    .featuredSection h1
+    {
+        padding-top : 18px ;
+        font-size : 30px ;
+    }
+
+    .featuredSection a
+    {
+        font-size  : 12px ;
+        width : 188px ;
+        margin-top : 30px ;
+    }
+
+    .featuredSection a:hover
+    {
+        width : 188px ;
+        font-size: 12px ;
+        color : white ;
+        background-color: rgba(207, 0, 0, 0.952);
+    }
+
+    .featuredSection
+    {
+        text-align: center ;
+    }
+
+    .featuredSection p
+    {
+        font-size : 16px ;
+    }
+}
+
+@media (max-width : 520px)
+{
+    .jumbotron
+    {
+        height : 400px ;
+    }
+    #logo
+    {
+        height : 50px ;
+        width : 50px ;
+    }
+
+    .featuredSection h1
+    {
+        padding-top : 5px ;
+        font-size : 28px ;
+    }
+
+    .featuredSection a
+    {
+        font-size  : 10px ;
+        width : 160px ;
+        margin-top: 20px ;
+    }
+
+    .featuredSection a:hover
+    {
+        width : 160px ;
+        font-size: 10px ;
+        color : white ;
+        background-color: rgba(207, 0, 0, 0.952);
+    }
+
+    .featuredSection
+    {
+        text-align: center ;
+    }
+
+    .featuredSection p
+    {
+        font-size : 14px ;
+    }
+}

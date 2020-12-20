@@ -1,0 +1,210 @@
+html
+{
+    height : 100% ;
+    background: radial-gradient(circle,white,darkgrey);
+}
+
+#container
+{
+    height : 400px ;
+    width : 600px ;
+    padding : 20px ;
+    background-color : rgb(184, 199, 128) ;
+    margin : 100px auto ;
+    position : relative ;
+    box-shadow : 3px 3px 1px rgb(25, 31, 15) ;
+    border-radius : 10px ;
+}
+
+#scoreBox
+{
+    background-color: coral ;
+    padding : 10px 5px ;
+    position : absolute ;
+    left : 500px ;
+    box-shadow : 3px 3px 1px rgb(25, 31, 15) ;
+    border-radius : 10px ;
+}
+
+#correct
+{
+    background-color: rgb(40, 100, 48) ;
+    color : whitesmoke ;
+    padding : 10px 5px ;
+    position : absolute ;
+    left : 275px ;
+    box-shadow : 3px 3px 1px rgb(25, 31, 15) ;
+    border-radius : 10px ;
+    display : none ;
+}
+
+#wrong
+{
+    background-color: rgb(170, 10, 10) ;
+    color : whitesmoke ;
+    padding : 10px 5px ;
+    position : absolute ;
+    left : 275px ;
+    box-shadow : 3px 3px 1px rgb(25, 31, 15) ;
+    border-radius : 10px ;
+    display : none ;
+}
+
+#question
+{
+    background-color: teal ;
+    width : 400px ;
+    height :120px ;
+    position : absolute ;
+    top : 70px ;
+    left : 100px ;
+    color : white ;
+    font-family : cursive , sans-serif ;
+    font-size : 80px ;
+    text-align: center ;
+    box-shadow : 3px 3px 1px rgb(25, 31, 15) ;
+    border-radius : 10px ;
+    border : 1px solid rgb(145, 80, 5) ;
+}
+
+#description
+{
+    background-color: teal ;
+    width : 400px ;
+    height :40px ;
+    position : absolute ;
+    top : 200px ;
+    left : 100px ;
+    color : white ;
+    font-family : Helvetica, sans-serif ;
+    font-size : 14px ;
+    text-align: center ;
+    box-shadow : 3px 3px 1px rgb(25, 31, 15) ;
+    border-radius : 10px ;
+    border : 1px solid rgb(145, 80, 5) ;
+    line-height : 39px ;
+    font-weight : bold ;
+}
+
+#choices
+{
+    line-height : 70px ;
+    width : 440px ;
+    height :100px ;
+    position : absolute ;
+    top : 260px ;
+    left : 100px ;
+    font-family : cursive ;
+}
+
+.choice
+{
+    background-color : rgb(66, 77, 58) ;
+    color :white ;
+    font-size : 17px ;
+    text-align : center ;
+    width : 75px ;
+    height : 75px ;
+    float : left ;
+    margin-right : 31px ;
+    box-shadow : 2px 2px 2px rgb(25, 31, 15) ;
+    border-radius : 10px ;
+    border : 1px solid rgb(88, 4, 4) ;
+    text-shadow: 1px 1px 1px rgb(59, 4, 4) ;
+    transition : background-color 0.2s ease , color 0.5s ease , text-shadow 0.1s linear ;
+    -ms-transition : background-color 0.2s ease , color 0.5s ease , text-shadow 0.1s linear ;
+    -o-transition : background-color 0.2s ease , color 0.5s ease , text-shadow 0.1s linear ;
+    -webkit-transition : background-color 0.2s ease , color 0.5s ease , text-shadow 0.1s linear ;
+    -moz-transition : background-color 0.2s ease , color 0.5s ease , text-shadow 0.1s linear ;
+}
+
+.choice:hover
+{
+    background-color: yellowgreen ;
+    color : black ;
+}
+
+.choice:active
+{
+    background-color: yellowgreen ;
+    color : black ;
+    box-shadow: 0px 0px 0px rgb(145, 241, 233) ;
+    position: relative ;
+    top : 2px ;
+    left : 2px ;
+}
+#choice4 
+{
+    margin-right : none ;
+}
+.clear
+{
+    clear : both ;
+}
+
+#startResetBox
+{
+    background-color : rgb(102, 119, 28) ;
+    color :whitesmoke ;
+    font-size : 20px ;
+    text-align : center ;
+    width : 120px ;
+    height : 22 ;
+    margin-right : 31px ;
+    box-shadow : 3px 3px 1px rgb(187, 243, 96) ;
+    border-radius : 10px ;
+    border : 1px solid rgba(255, 17, 17,0.4) ;
+    text-shadow: 1px 1px 1px rgb(2, 189, 202) ;
+    position : absolute ;
+    top : 370px ;
+    left : 240px ;
+    transition : background-color 0.2s ease , color 0.5s ease , text-shadow 0.1s linear ;
+    -ms-transition : background-color 0.2s ease , color 0.5s ease , text-shadow 0.1s linear ;
+    -o-transition : background-color 0.2s ease , color 0.5s ease , text-shadow 0.1s linear ;
+    -webkit-transition : background-color 0.2s ease , color 0.5s ease , text-shadow 0.1s linear ;
+    -moz-transition : background-color 0.2s ease , color 0.5s ease , text-shadow 0.1s linear ;
+}
+
+#startResetBox:active
+{
+    background-color: yellowgreen ;
+    color : black ;
+    text-shadow: 2px 2px 2px rgb(145, 241, 233) ;
+}
+
+#startResetBox:hover
+{
+    cursor: pointer ;
+}
+
+#timeBox
+{
+    background-color: coral ;
+    box-shadow : 3px 3px 1px rgb(25, 31, 15) ;
+    color :black ;
+    font-size : 14 ;
+    text-align : center ;
+    margin-right : 31px ;
+    border-radius : 10px ;
+    border : 1px solid rgba(255, 17, 17 ,0.4) ;
+    float : left ;
+    padding : 8px 5px ;
+    display: none ;
+}
+
+#gameOver
+{
+    background-color: rgba(98, 73, 122, 0.952);
+    border : 4px inset rgb(213, 250, 1) ;
+    text-transform: uppercase ;
+    text-align: center ;
+    width : 410px ;
+    height : 275px ;
+    position : absolute ;
+    top : 65px ;
+    left : 93px ;
+    font-size : 40px ;
+    line-height: 60px ;
+    color : rgba(255, 70, 70, 0.911) ;
+    display : none ;
+}
